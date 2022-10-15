@@ -22,4 +22,9 @@ node server.js
 ```
 
 - Register and Login function can click   http://localhost:3000 to use
-- Query user information http://localhost:3000/user_info?username=<username>
+- Query user information , you can type  the link with username parameters in your browser application
+
+```url
+ http://localhost:3000/user_info?username=<username>
+```
+
