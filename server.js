@@ -5,7 +5,6 @@ const bodyparser = require('body-parser')
 var engines = require('consolidate');
 app.engine('html', engines.mustache);
 app.set('view engine', 'html')
-let config = require('./config.js');
 let connection = mysql.createPool({
     host: 'localhost',
     user: 'root',
